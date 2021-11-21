@@ -2,6 +2,8 @@ import React from 'react'
 
 import {Blog, Footer, Possibility, Features, Web3, Header} from './containers';
 import {CTA, Brand, Navbar} from './components';
+import './App.css';
+import './index.css';
 
 const App = () => {
     return (
