@@ -123,12 +123,48 @@
     }
 }
 
-@media screen and (max-width: 1050px){
-    .web3__header {
+@media screen and (max-width: 650px){
+    .web3__header h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .web3__header p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .web3__header-content__people {
         flex-direction: column;
     }
 
-    .web3__header-content {
-        margin: 0 0 3rem;
+    .web3__header-content__people p {
+        margin: 0;
     }
+    
+    .web3__header-content__input input, 
+    .web3__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 490px){
+    .web3__header h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .web3__header p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .web3__header-content__input input, 
+    .web3__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
 }

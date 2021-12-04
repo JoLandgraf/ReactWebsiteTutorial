@@ -19,10 +19,9 @@ const Header = () => {
                     <img src={people} alt="people"/>
                     <p>242 people requested access</p>
                 </div>
-
-                <div className="web3__header-image">
-                    <img src={ai} alt="ai" />
-                </div>
+            </div>
+            <div className="web3__header-image">
+                <img src={ai} alt="ai" />
             </div>
         </div>
     )
