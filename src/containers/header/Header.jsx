@@ -1,11 +1,9 @@
 import React from 'react';
-import { RiPsychotherapyLine } from 'react-icons/ri';
 import './header.css';
 import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
 
-const Header = () => {
-    return (
+const Header = () => (
         <div className="web3__header section__padding" id="home">
             <div className="web3__header-content">
                 <h1 className="gradient__text">Let's build with Web3</h1>
@@ -24,7 +22,6 @@ const Header = () => {
                 <img src={ai} alt="ai" />
             </div>
         </div>
-    )
-}
+);
 
 export default Header

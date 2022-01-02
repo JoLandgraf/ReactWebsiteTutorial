@@ -2,11 +2,10 @@ import React from 'react'
 
 import {Blog, Footer, Possibility, Features, Web3, Header} from './containers';
 import {CTA, Brand, Navbar} from './components';
-import './App.css';
-import './index.css';
 
-const App = () => {
-    return (
+import './App.css';
+
+const App = () => (
         <div classname="App">
             <div className="gradient__bg">
                 <Navbar />
@@ -21,7 +20,6 @@ const App = () => {
             <Footer />
         </div>
 
-    )
-}
+    );
 
 export default App

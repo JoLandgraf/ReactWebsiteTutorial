@@ -1,12 +1,22 @@
-import React from 'react'
-import './web3.css'
+import React from 'react';
+import Feature from '../../components/feature/Feature';
+import './web3.css';
 
-const Web3 = () => {
-    return (
-        <div>
-            Web3
-        </div>
-    )
-}
+const Web3 = () => (
+  <div className="web3__whatweb3 section__margin" id="wweb3">
+    <div className="web3__whatweb3-feature">
+      <Feature title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by." />
+    </div>
+    <div className="web3__whatweb3-heading">
+      <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
+      <p>Explore the Library</p>
+    </div>
+    <div className="web3__whatweb3-container">
+      <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
+      <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+    </div>
+  </div>
+);
 
-export default Web3
+export default Web3;

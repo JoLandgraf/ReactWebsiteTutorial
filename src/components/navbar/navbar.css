@@ -29,7 +29,7 @@
 
 .web3__navbar-sign {
     display: flex;
-    justify-content: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -83,15 +83,15 @@
     background: var(--color-footer);
     padding: 2rem;
     position: absolute;
-    top: 40 px;
+    top: 40px;
     right: 0;
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
-    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
 }
 
-.web3__navbar-menu_containr p {
+.web3__navbar-menu_container p {
     margin: 1rem 0;
 }
 
@@ -115,7 +115,7 @@
 }
 @media screen and (max-width: 550px) {
     .web3__navbar {
-        padding: 9rem;
+        padding: 2rem;
     }
     .web3__navbar-sign {
         display: none;

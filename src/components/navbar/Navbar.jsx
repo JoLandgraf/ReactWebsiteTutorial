@@ -39,17 +39,16 @@ const Navbar = () => {
                     <div className="web3__navbar-menu_container scale-up-center"> 
                         <div className="web3__navbar-menu_container-links">
                             <Menu />
-                            <div className="web3__navbar-menu_container-links-sign">
-                                <p> Sign in </p>
-                                <button type="button">Sign up</button>
-                            </div>
+                        </div>
+                        <div className="web3__navbar-menu_container-links-sign">
+                            <p> Sign in </p>
+                            <button type="button">Sign up</button>
                         </div>
                     </div>
                 )}
             </div> 
         </div>
-
-    )
-}
+    );
+};
 
 export default Navbar
